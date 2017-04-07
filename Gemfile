@@ -16,6 +16,10 @@ source 'https://rubygems.org'
    gem 'rspec-rails', '~> 3.0'
  end
 
+ group :test do
+  gem "nyan-cat-formatter"
+ end
+
  # Use SCSS for stylesheets
  gem 'sass-rails', '~> 5.0'
  # Use Uglifier as compressor for JavaScript assets
@@ -26,3 +30,5 @@ source 'https://rubygems.org'
  gem 'jquery-rails'
  # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
  gem 'turbolinks'
+ # use bootstrap as css framework
+ gem 'bootstrap-sass'
