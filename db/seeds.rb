@@ -1,11 +1,11 @@
 require 'random_data'
 
 #Create unique Post
-Post.find_or_create_by!(
+post = Post.find_or_create_by!(
   title: "Unique Post",
   body: "Unique Body"
 )
-poster = Post.first
+
 #Create Posts
 50.times do
   Post.create!(
@@ -25,7 +25,7 @@ posts = Post.all
 end
 #Create a unique Comment
 Comment.find_or_create_by!(
-post: poster,
+post: post,
 body: "a super unique comment body"
 )
 
