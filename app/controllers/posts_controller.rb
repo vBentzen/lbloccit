@@ -17,10 +17,10 @@ class PostsController < ApplicationController
     @post.body = params[:post][:body]
 
     if @post.save
-      flash[:notice] = "Post was saved."
+      flash[:notice] = 'Post was saved.'
       redirect_to @post
     else
-      flash.now[:alert] = "There was an error saving the post. Please try again."
+      flash.now[:alert] = 'There was an error saving the post. Please try again.'
       render :new
     end
   end
@@ -35,10 +35,10 @@ class PostsController < ApplicationController
     @post.body = params[:post][:body]
 
     if @post.save
-      flash[:notice] = "Post was updated."
+      flash[:notice] = 'Post was updated.'
       redirect_to @post
     else
-      flash.now[:alert] = "There was an error saving the post. Please try again."
+      flash.now[:alert] = 'There was an error saving the post. Please try again.'
       render :edit
     end
   end
@@ -49,7 +49,7 @@ class PostsController < ApplicationController
       flash[:notice] = "\"#{@post.title}\" was deleted successfully."
       redirect_to posts_path
     else
-      flash.now[:alert] = "There was an error deleting the post."
+      flash.now[:alert] = 'There was an error deleting the post.'
       render :show
     end
   end

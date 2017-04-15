@@ -6,7 +6,7 @@ module RandomData
        sentences << random_sentence
      end
 
-     sentences.join(" ")
+     sentences.join(' ')
    end
 
  # #7
@@ -16,8 +16,8 @@ module RandomData
        strings << random_word
      end
 
-     sentence = strings.join(" ")
-     sentence.capitalize << "."
+     sentence = strings.join(' ')
+     sentence.capitalize << '.'
    end
 
  # #8

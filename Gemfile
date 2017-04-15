@@ -17,7 +17,7 @@ source 'https://rubygems.org'
  end
 
  group :test do
-  gem "nyan-cat-formatter"
+  gem 'nyan-cat-formatter'
  end
 
  # Use SCSS for stylesheets
