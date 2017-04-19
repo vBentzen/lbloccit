@@ -39,8 +39,8 @@
       <file leaf-file-name="questions_controller_spec.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/controllers/questions_controller_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="52" column="46" lean-forward="true" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
+            <state relative-caret-position="143">
+              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -381,7 +381,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15914000" />
+    <option name="totallyTimeSpent" value="15931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="959" y="23" width="961" height="1053" extended-state="0" />
@@ -759,8 +759,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/controllers/questions_controller_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="52" column="46" lean-forward="true" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
+        <state relative-caret-position="143">
+          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding />
         </state>
       </provider>
