@@ -4,8 +4,8 @@ Rails.application.routes.draw do
   end
 
   resource :users, only: [:new, :create]
-
   get 'about' => 'welcome#about'
+  post 'users/confirm' => 'users#confirm'
 
-  root 'welcome#index' #start/default page
+  root 'welcome#index' # start/default page
 end
