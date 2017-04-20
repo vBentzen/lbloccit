@@ -5,6 +5,8 @@ Rails.application.routes.draw do
 
   resource :users, only: [:new, :create]
 
+  resources :sessions, only: [:new, :create, :destroy]
+
   get 'about' => 'welcome#about'
 
   root 'welcome#index' #start/default page
